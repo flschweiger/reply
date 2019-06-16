@@ -1,5 +1,7 @@
 # Reply :heart: Flutter
 
+[![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square)](https://github.com/Solido/awesome-flutter)
+
 > Reply is an email app that uses Material Design components and Material Theming to create an on-brand communication experience.
 
 This project tries to deliver a pixel-perfect implementation of the [Reply Material Design Case Study](https://material.io/design/material-studies/reply.html) in [Flutter](https://github.com/flutter/flutter). 
@@ -11,9 +13,9 @@ powerful Flutter has become as a UI framework.
 ## Getting Started
 
 To install the app on your phone you have two options. For Android you can download a pre-compiled 
-APK file from the 'Releases' tab or use the this direct link.
+APK file from the ['Releases'](https://github.com/flschweiger/reply/releases) tab or use the this [direct link](https://github.com/flschweiger/reply/releases/download/v1.0.0/reply-release.apk).
 
-You can also download and run the project - for this you need to have a local Flutter installation. 
+You can also download and build the project locally - for this you need to have a local Flutter installation. 
 Just clone the project and inside the root execute `flutter run --profile`.
 This will compile and install the app on your connected device / emulator / simulator.
 Also make sure to enable slow animations :wink:
