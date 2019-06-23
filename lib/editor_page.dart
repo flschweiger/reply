@@ -11,7 +11,7 @@ class EditorPage extends StatefulWidget {
       : assert(sourceRect != null),
         super(key: key);
 
-  static Route<dynamic> route(BuildContext context, GlobalKey key, String icon) {
+  static Route<dynamic> route(BuildContext context, GlobalKey key) {
     final RenderBox box = key.currentContext.findRenderObject();
     final Rect sourceRect = box.localToGlobal(Offset.zero) & box.size;
 
