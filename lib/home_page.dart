@@ -143,7 +143,7 @@ class _HomePageState extends State<HomePage> {
             ),
             backgroundColor: AppTheme.orange,
             onPressed: () => Navigator.of(context).push<void>(
-                  EditorPage.route(context, _fabKey, 'assets/images/ic_${showEditAsAction ? 'edit' : 'reply'}.png'),
+                  EditorPage.route(context, _fabKey),
                 ),
           );
         },
