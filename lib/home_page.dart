@@ -143,8 +143,8 @@ class _HomePageState extends State<HomePage> {
             ),
             backgroundColor: AppTheme.orange,
             onPressed: () => Navigator.of(context).push<void>(
-                  EditorPage.route(context, _fabKey),
-                ),
+              EditorPage.route(context, _fabKey),
+            ),
           );
         },
       ),

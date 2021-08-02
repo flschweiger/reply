@@ -10,8 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  provider: 3.0.0
-  flare_flutter: 1.5.1
+  provider: ^5.0.0
+  flare_flutter: ^3.0.2
 
 dev_dependencies:
   flutter_test:
