@@ -6,6 +6,7 @@ import 'package:reply/list_page.dart';
 import 'package:reply/model/email_model.dart';
 import 'package:reply/styling.dart';
 import 'package:reply/transition/scale_out_transition.dart';
+import 'package:wiredash/wiredash.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -77,7 +78,9 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ],
                   ),
-                  onPressed: () => print('Tap!'),
+                  onPressed: () {
+                    Wiredash.of(context).show();
+                  },
                 ),
                 Spacer(),
                 _actionItems,
@@ -143,8 +146,8 @@ class _HomePageState extends State<HomePage> {
             ),
             backgroundColor: AppTheme.orange,
             onPressed: () => Navigator.of(context).push<void>(
-                  EditorPage.route(context, _fabKey),
-                ),
+              EditorPage.route(context, _fabKey),
+            ),
           );
         },
       ),

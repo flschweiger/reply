@@ -4,7 +4,9 @@ import 'package:reply/home_page.dart';
 import 'package:reply/model/email_model.dart';
 import 'package:reply/styling.dart';
 
-void main() => runApp(ReplyApp());
+void main() {
+  runApp(ReplyApp());
+}
 
 class ReplyApp extends StatelessWidget {
   @override
@@ -21,11 +23,7 @@ class ReplyApp extends StatelessWidget {
           accentColor: AppTheme.orange,
           textTheme: AppTheme.textTheme,
         ),
-        onGenerateRoute: (RouteSettings settings) {
-          if (settings.isInitialRoute) {
-            return PageRouteBuilder<void>(pageBuilder: (BuildContext context, _, __) => HomePage());
-          }
-        },
+        home: HomePage(),
       ),
     );
   }
