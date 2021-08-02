@@ -6,7 +6,6 @@ import 'package:reply/list_page.dart';
 import 'package:reply/model/email_model.dart';
 import 'package:reply/styling.dart';
 import 'package:reply/transition/scale_out_transition.dart';
-import 'package:wiredash/wiredash.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -78,9 +77,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ],
                   ),
-                  onPressed: () {
-                    Wiredash.of(context).show();
-                  },
+                  onPressed: () => print('Tap!'),
                 ),
                 Spacer(),
                 _actionItems,
